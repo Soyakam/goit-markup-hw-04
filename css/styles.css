@@ -397,9 +397,9 @@ img {
   color: #2e2f42;
   text-align: center;
   margin-bottom: 72px;
-  font-family: "Roboto", sans-serif;
+
   font-size: 36px;
-  font-style: normal;
+
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
@@ -409,6 +409,7 @@ img {
 .all-products:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 .photo-product:hover {
   transform: translateY(0%);
