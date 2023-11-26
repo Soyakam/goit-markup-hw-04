@@ -215,8 +215,11 @@ img {
 .button:focus {
   background-color: #404bbf;
 }
+
+/*------------------------- друга секція -------------------*/
+
 .colums {
-  padding: 120px 0;
+  padding: 120px 0 120px;
 }
 
 .visually-hidden {
@@ -247,9 +250,9 @@ img {
   height: 112px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
-  background-color: #f4f4fd;
+  background: #f4f4fd;
   fill: #2e2f42;
-  padding: 24px 100px;
+
   margin-bottom: 8px;
 }
 
@@ -330,8 +333,6 @@ img {
   color: #2e2f42;
   text-align: center;
   margin-bottom: 8px;
-
-  /* Header 3 */
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
