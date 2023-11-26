@@ -468,6 +468,9 @@ img {
 .owerlay-part:hover {
   transform: translateY(0%);
 }
+
+/*  ...............................ПІДВАЛ.......................... */
+
 .land {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -498,4 +501,19 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+.social-net-info {
+  display: flex;
+  display: block;
+  align-items: center;
+}
+
+.futer-media {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
 }
