@@ -95,7 +95,7 @@ img {
   border-radius: 2px;
 }
 .menu-item::after {
-  content: ;
+  content: " ";
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -115,7 +115,7 @@ img {
   background: #404bbf;
 }
 .menu-link {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #404bbf;
   /* Body Medium */
   font-family: "Roboto", sans-serif;
   font-size: 16px;
