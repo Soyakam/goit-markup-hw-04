@@ -475,6 +475,10 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.last-land {
+  display: flex;
+  align-items: baseline;
+}
 .logoin {
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
@@ -503,9 +507,7 @@ img {
   max-width: 264px;
 }
 .social-net-info {
-  display: flex;
-  display: block;
-  align-items: center;
+  margin-right: 120px;
 }
 
 .futer-media {
