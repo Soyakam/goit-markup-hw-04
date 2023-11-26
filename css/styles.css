@@ -256,13 +256,12 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/*              Третій сектор      */
 .folks {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.team {
-  background-color: #ffffff;
-}
+
 .our-team {
   color: #2e2f42;
   text-align: center;
@@ -284,6 +283,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  background-color: #ffffff;
 }
 
 .name-and-work {
@@ -333,8 +333,23 @@ img {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
+.social {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social:hover {
+  background-color: #404bbf;
+}
+.social:focus {
+  background-color: #404bbf;
+}
 .icon {
-  fill: white;
+  fill: #f4f4fd;
 }
 .our-product {
   padding-top: 120px;
