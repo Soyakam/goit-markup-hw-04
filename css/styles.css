@@ -507,7 +507,6 @@ img {
   max-width: 264px;
 }
 .social-net-info {
-  margin-right: 120px;
 }
 
 .futer-media {
@@ -520,5 +519,6 @@ img {
   margin-bottom: 16px;
 }
 .logo-and-paragraph {
+  display: flex;
   margin-right: 120px;
 }
