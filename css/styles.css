@@ -403,7 +403,7 @@ img {
   text-transform: capitalize;
 }
 
-.all-products:hover {
+.all-products:hover .owerlay-part {
   transform: translateY(0%);
 }
 .all-products:hover {
